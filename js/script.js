@@ -19,6 +19,7 @@ const start = () => {
 }
 
 document.addEventListener('keydown', start);
+document.addEventListener('click', start);
 
 
 
@@ -73,10 +74,12 @@ const loop = setInterval(() => {
         }
 
         document.addEventListener('keydown', restart);
+        document.addEventListener('click', restart);
     }
 
 },10);
 
 
 document.addEventListener('keydown', jump);
+document.addEventListener('click', jump);
 
